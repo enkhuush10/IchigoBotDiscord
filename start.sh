@@ -1,5 +1,3 @@
 #!/bin/bash
-# Install dependencies
 pip install -r requirements.txt
-# Start the bot
-python bot.py
+python3 bot.py

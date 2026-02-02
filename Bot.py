@@ -79,4 +79,4 @@ async def test_command(ctx):
     await ctx.send(f"✅ Tested! Check {welcome_channel.mention} for the embed.")
 
 # The bot runs using the token from the environment variable
-bot.run(BOT_TOKEN)
+bot.run('DISCORD_BOT_TOKEN')
